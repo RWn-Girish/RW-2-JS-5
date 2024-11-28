@@ -1,8 +1,10 @@
 // Variable => like this container, store to inforamtion or data
-
-
 // initalization
 // var a ;
+
+
+
+
 
 // // let  const
 
