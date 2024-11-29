@@ -126,3 +126,27 @@ let a = 10, b = 22, c = 150;
 // console.log(11 * "A");
 // console.log(11 / "A");
 // console.log(typeof (11 / "A"));
+
+
+// Chnage Password
+/*
+    1. oldPassword, newPassword, ConfirmPassword
+    2. oldPass == newPass => password already used
+    3. newPass == confPass => successfully Changed
+    4.                     => newPass & ConfPass not matched
+*/
+
+let oldPass, newPass, confPass;
+oldPass = prompt('Enter your Old Password');
+newPass = prompt('Enter your New Password');
+confPass = prompt('Enter your Confirm Password');
+
+if(oldPass == newPass){
+    console.log('Password is already used');
+}else{
+    if(newPass != confPass){
+        console.log('New Password & Confirm Password is not matched');
+    }else{
+        console.warn('Your Password is Successfully Changed....!');
+    }
+}
